@@ -1,18 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Solution module 2</title>
-  </head>
-  <body>
-    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is Structure Only</h1>
-    <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus esse suscipit nisi ad.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloribus eos perspiciatis.</p>
-    <footer>
-      <hr>
-      <p style="text-align: center;" 
-         onclick="alert('EMAILING US IS USELESS');">
-         Tech Support: yeah.right@server-is-down.com
-      </p>
-    </footer>
-  </body>
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="stylesheet_module2_solution.css">
+<title>Responsive Layout</title>
+</head>
+
+<body>
+<div class="headertitle">Our Menu</div>
+
+<div class="row">
+  
+  <!--Set first box with chicken menu-->
+  <div class="col-lg-4 col-md-6 col-xs-12">
+    <section class="menubox">
+      <p class="menuheader backgroundblue fontblack">Chicken</p>
+      <div class="menutext">
+        We have a large selection of chicken dishes to choose from. Our most popular chicken dishes includes: 
+        <ul>
+          <li>Green curry chicken</li>
+          <li>Red curry chicken</li>
+          <li>Chicken in garlic sauce</li>
+          <li>Chicken noodle sallad</li>
+          <li>Sweet and sour chicken</li>
+        </ul>
+        For all dishes you can choose small, medium or large.
+      </div>
+    </section>
+  </div>
+  
+  <!--Set second box with beef menu-->
+  <div class="col-lg-4 col-md-6 col-xs-12">
+    <section class="menubox">
+      <p class="menuheader backgroundred fontwhite">Beef</p>
+      <div class="menutext">
+        We have a lage selection of beef dishes to choose from. Our most popular Beef dishes includes: 
+        <ul>
+          <li>Szechuan Beef</li>
+          <li>Beef with thai basil</li>
+          <li>Mongolian meatballs</li>
+          <li>Glazed steak</li>
+          <li>Seasame ginger beef</li>
+        </ul>
+        For all dishes you can choose small, medium or large.
+      </div>
+    </section>
+  </div>
+
+  <!--Set third box with sushi menu-->
+  <div class="col-lg-4 col-md-12 col-xs-12">
+    <section class="menubox">
+      <p class="menuheader backgroundgreen fontblack">Sushi</p>
+      <div class="menutext">
+        We have a large selection of sushi dishes to choose from. Our most popular Sushi dishes includes: 
+        <ul>
+          <li>Sashimi mix</li>
+          <li>Salmon nigri</li>
+          <li>Nigri mix</li>
+          <li>Crispy California roll</li>
+          <li>Tempura roll</li>
+        </ul>
+        For all dishes you can choose small, medium or large.
+      </div>
+    </section>
+  </div>
+
+</div>
+
+</body>
+
 </html>
